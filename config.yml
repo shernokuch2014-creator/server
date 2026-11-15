@@ -1,0 +1,102 @@
+# ===== ShoxCraft umumiy sozlamalari =====
+boshlangich-pul: 1000
+kunlik-mukofot: 250
+maks-uy: 3
+tpa-vaqt: 60          # soniya
+spawn-himoya: 0      # ANARXIYA: 0 = hech qanday himoya yo'q. Xohlasangiz radius (blok) yozing
+xush-kelibsiz: "&4&lSHOXCRAFT ANARXIYA &6- qoidalar yo'q, &e%oyinchi%&6! &7/yordam"
+# ===== Tadbirlar (avtomatik eventlar) =====
+tadbirlar:
+  oraliq-daqiqa: 30          # har necha daqiqada tasodifiy tadbir boshlanadi
+  royxat: [xazina, boss, konchi]
+  radius: 2000               # tadbir joylari spawn dan shuncha blok ichida
+  xazina-pul: 1500
+  xazina-daqiqa: 10
+  boss-jon: 400
+  boss-daqiqa: 15
+  konchi-daqiqa: 10
+  mukofot: [2000, 1000, 500] # 1, 2, 3-o'rin pul mukofoti
+
+# Rollar: /rol <o'yinchi> <rol>
+# admin: true -> admin buyruqlari, fly: true -> /uchish
+ranks:
+  oyinchi:
+    prefix: "&7[O'yinchi] "
+    admin: false
+    fly: false
+  vip:
+    prefix: "&6[VIP] "
+    admin: false
+    fly: true
+  admin:
+    prefix: "&c[Admin] "
+    admin: true
+    fly: true
+  owner:
+    prefix: "&4[Ega] "
+    admin: true
+    fly: true
+
+# ===== Artefaktlar =====
+# ability: DASH, FIREBALL, LEAP, LIGHTNING, HEAL, SOUL_DRAIN, VOID_STEP
+# custom-model-data: resource pack dagi 3D modelingiz raqami
+# Daraja: har 10 ta ishlatishda +1 daraja (max 5), har daraja cooldown'ni 8% kamaytiradi va kuchini oshiradi
+uses-per-level: 10
+max-level: 5
+artifacts:
+  dash_boots:
+    name: "&b&lShamol Etigi"
+    material: GOLDEN_BOOTS
+    custom-model-data: 1001
+    price: 500
+    ability: DASH
+    cooldown: 6
+    lore: ["&7O'ng tugma: oldinga otil"]
+  flame_staff:
+    name: "&c&lOlov Hassasi"
+    material: BLAZE_ROD
+    custom-model-data: 1002
+    price: 1500
+    ability: FIREBALL
+    cooldown: 8
+    lore: ["&7O'ng tugma: olov to'pi"]
+  sky_feather:
+    name: "&f&lOsmon Patagi"
+    material: FEATHER
+    custom-model-data: 1003
+    price: 800
+    ability: LEAP
+    cooldown: 10
+    lore: ["&7O'ng tugma: yuqoriga sakra"]
+  thunder_hammer:
+    name: "&e&lMomaqaldiroq Bolg'asi"
+    material: IRON_AXE
+    custom-model-data: 1004
+    price: 3000
+    ability: LIGHTNING
+    cooldown: 15
+    lore: ["&7O'ng tugma: nishonga chaqmoq"]
+  life_charm:
+    name: "&a&lHayot Tumori"
+    material: EMERALD
+    custom-model-data: 1005
+    price: 1200
+    ability: HEAL
+    cooldown: 20
+    lore: ["&7O'ng tugma: o'zingni davola"]
+  soul_scythe:
+    name: "&5&lJon O'roqi"
+    material: NETHERITE_HOE
+    custom-model-data: 1006
+    price: 5000
+    ability: SOUL_DRAIN
+    cooldown: 18
+    lore: ["&7O'ng tugma: atrofdagilar jonini so'r"]
+  void_pearl:
+    name: "&d&lBo'shliq Marvaridi"
+    material: ENDER_PEARL
+    custom-model-data: 1007
+    price: 2500
+    ability: VOID_STEP
+    cooldown: 12
+    lore: ["&7O'ng tugma: ko'rinmas qadam bilan teleport"]

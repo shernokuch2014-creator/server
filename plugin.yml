@@ -1,0 +1,31 @@
+name: ShoxCraft
+main: uz.shoxcraft.ShoxCraft
+version: 3.0
+api-version: '1.21'
+commands:
+  yordam: {description: Buyruqlar ro'yxati}
+  dokon: {description: Artefakt do'koni, aliases: [magazin]}
+  artefakt: {description: Artefakt berish}
+  shoxqayta: {description: Sozlamalarni qayta yuklash}
+  balans: {description: Pulingizni ko'rish}
+  tolov: {description: Pul yuborish}
+  pulber: {description: Pul berish (admin)}
+  rol: {description: Rol berish (admin)}
+  uy: {description: Uyga teleport}
+  uyqoy: {description: Uy belgilash}
+  uyochir: {description: Uyni o'chirish}
+  uylar: {description: Uylar ro'yxati}
+  yuborish: {description: Teleport so'rovi}
+  qabul: {description: So'rovni qabul qilish}
+  rad: {description: So'rovni rad etish}
+  boshlash: {description: Boshlash nuqtasiga}
+  boshlashqoy: {description: Boshlash nuqtasini belgilash}
+  manzil: {description: Manzilga teleport}
+  manzilqoy: {description: Manzil belgilash}
+  manzilochir: {description: Manzilni o'chirish}
+  manzillar: {description: Manzillar ro'yxati}
+  orqaga: {description: Oldingi joyga qaytish}
+  shifo: {description: Davolanish (admin)}
+  uchish: {description: Uchish}
+  kunlik: {description: Kunlik mukofot}
+  tadbir: {description: Tadbirlarni boshqarish (admin)}
